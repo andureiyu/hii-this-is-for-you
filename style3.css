@@ -85,6 +85,7 @@ h2 {
     background-size: contain;
     height: 350px;
     width: 435px;
+    background-repreat: infinite;
 }
 
 
