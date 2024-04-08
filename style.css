@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-box{
+    width: 90%;
+    color: #5b5e8b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+     font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px
+    
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:darkslategrey;
+    border: 1px solid #F4F4FB;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 27px;
+    margin: 0 25px;
+
+}
+.hero-btn:hover{
+    border: 1px solid #44DD7B;
+    background: #44DD7B;
+    transition: 1s;
+
+}
+
+.red-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:darkslategrey;
+    border: 1px solid #F4F4FB;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 27px;
+    margin: 0 25px;
+
+}
+
+
+.red-btn:hover{
+    border: 1px solid #eb2525;
+    background: #eb2525;
+    transition: 1s;
+
+}
+   
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+}
+
+}
+ 
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+.body {
+  background-color: #ffb7b0;
+  min-height: 70vh;
+  padding: 40vh 30vw;
+  color: hsl(198, 1%, 29%);
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
+  font-size: 130%;  
+}
+
+h2 {
+  line-height: 1.5;
+  display: inline;
+  background-image: linear-gradient(
+        transparent 50%,
+        #e1fffe 50%,
+        #b0f8ff 85%,
+        transparent 85%,
+        transparent 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+}
+
+@keyframes animatedBackground {
+    to {
+        background-size: 100% 100%;
+    }
+}
+
+
+ 
