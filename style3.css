@@ -78,7 +78,7 @@ h2 {
 
 .Mochi-Cat {
     position: absolute;
-    top: 26%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('flowercat.gif');
