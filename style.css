@@ -34,8 +34,8 @@
 
 }
 .hero-btn:hover{
-    border: 1px solid #44DD7B;
-    background: #44DD7B;
+    border: 1px solid #4ada7f;
+    background: #4ada7f;
     transition: 1s;
 
 }
@@ -57,8 +57,8 @@
 
 
 .red-btn:hover{
-    border: 1px solid #eb2525;
-    background: #eb2525;
+    border: 1px solid #e74848;
+    background: #e74848;
     transition: 1s;
 
 }
