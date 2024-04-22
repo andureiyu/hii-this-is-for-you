@@ -68,7 +68,7 @@
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
-        font-family: 'Gochi Hand', Georgia, 'Times New Roman', Times, serif;;
+        font-family: 'Gochi Hand', Georgia, 'Times New Roman', Times, serif;
 }
 
 }
@@ -80,7 +80,7 @@
   min-height: 70vh;
   padding: 40vh 30vw;
   color: hsl(198, 1%, 29%);
-  font-family: 'Gochi Hand', Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive;
   text-align: left;
   font-size: 130%;  
 }
